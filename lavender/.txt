@@ -1,0 +1,5 @@
+host='localhost.com'
+port=3000
+HTTPS=true
+SSL_CRT_FILE=/Users/huy/localhost.com.pem
+SSL_KEY_FILE=/Users/huy/localhost.com-key.pem

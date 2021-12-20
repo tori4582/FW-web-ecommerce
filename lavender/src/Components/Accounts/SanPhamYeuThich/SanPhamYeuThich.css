@@ -1,0 +1,152 @@
+
+.kagiDG .heading {
+
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: 300;
+    margin: 20px 0px 15px;
+}
+
+
+.kagiDG .item{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    border-radius: 2px;
+    padding: 20px 70px 20px 15px;
+    display: flex;
+    position: relative;
+}
+.jDowEZ .image {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    vertical-align: middle;
+}
+
+.jDowEZ.loaded .image {
+    display: inline-block;
+}
+
+.kagiDG .item .body {
+    flex: 1 1 0%;
+}
+
+.kagiDG .item .name {
+    font-size: 14px;
+    margin: 0px 0px 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    display: block;
+}
+
+.kagiDG .rating {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.kagiDG .review-count {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 4px;
+}
+
+.kagiDG .footer {
+    width: 190px;
+    min-width: 230px;
+    margin-left: 25px;
+    text-align: right;
+}
+
+.kagiDG .footer .price {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0px 0px 8px;
+    color: rgb(56, 56, 61);
+}
+.kagiDG .footer .price.has-discount {
+    color: rgb(255, 66, 78);
+}
+
+.kagiDG .footer .wrap {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    font-size: 13px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.kagiDG .footer .list-price {
+    color: rgb(128, 128, 137);
+    text-decoration: line-through;
+}
+
+.kagiDG .footer .discount {
+    position: relative;
+    z-index: 1;
+    padding: 0px 2px;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid rgb(255, 66, 78);
+    border-radius: 2px;
+    background-color: rgb(255, 240, 241);
+    color: rgb(255, 66, 78);
+    margin-left: 20px;
+}
+
+.kagiDG .btn-delete {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    background: 0px center;
+    color: rgb(153, 153, 153);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 0px;
+    font-size: 30px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+.kagiDG .item .thumbnail {
+    width: 130px;
+    min-width: 130px;
+    margin: 0px 25px;
+}
+
+.kagiDG .rating__base {
+    color: rgb(222, 221, 220);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kagiDG .rating__progress {
+    color: rgb(255, 195, 36);
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.kagiDG .footer .discount::before {
+    content: "";
+    height: 10px;
+    width: 1px;
+    background-color: rgb(102, 102, 102);
+    position: absolute;
+    left: -11px;
+    top: 2px;
+}

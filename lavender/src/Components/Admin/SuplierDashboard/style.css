@@ -1,0 +1,20 @@
+.nhacungcapmodal .add-khachhang-button{
+    position: absolute!important;
+    right: 19px;
+    top: -7px;
+}
+.nhacungcapmodal.danhsachsanpham-title{
+    z-index: 3
+}
+.nhacungcapmodal.add-item-modal{
+    z-index: 2;
+    width: 600px;
+    height:500px;
+}
+.nhacungcapmodal .form-main-add-edit{
+    padding: 24px 0px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;   
+    overflow: scroll;
+}

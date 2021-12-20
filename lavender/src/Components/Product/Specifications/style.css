@@ -1,0 +1,64 @@
+.block-technical-info {
+    padding: 10px;
+    background: #ffffff;
+    overflow: hidden;
+}
+.technical-info .box-content table {
+    width: 100%;
+}
+.block-technical-info .box-content {
+    /* border: 1px solid #DEE2E6; */
+    border: 1px solid #F2F2F2;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+table {
+    border: 0;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+.block-technical-info .box-content table tbody tr:nth-child(odd) {
+    background: #F2F2F2;
+}
+.block-technical-info .box-content table tbody tr th:first-child {
+    width: 35%;
+}
+.block-technical-info .box-content table tbody tr th {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.section.cps-section .block-technical-info .box-content table tbody tr th {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.block-technical-info .box-content table tbody tr th:first-child {
+    width: 35%;
+}
+.block-technical-info .box-content table tbody tr th {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.block-information__box-right {
+    width: 100%;
+    float: left;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 0 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+.tskt{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-technical-info .box-content table tbody tr th .ten{
+    font-weight: 600;
+}

@@ -1,0 +1,339 @@
+.ijfiKe {
+  padding: 24px 0px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ijfiKe .header .close {
+  cursor: pointer;
+}
+.bBpgLT {
+  background: rgb(242, 242, 242);
+  padding: 16px;
+  margin: 0px 32px;
+  display: block;
+  border-radius: 4px;
+}
+.bBpgLT .input {
+  flex: 1 1 0%;
+  border-radius: 4px;
+  border: 1px solid rgb(224, 224, 224);
+  height: 40px;
+  width: calc(100% - 108px);
+  color: rgb(36, 36, 36);
+  font-size: 13px;
+  line-height: 1.54;
+  margin-right: 12px;
+  background-image: url(https://frontend.tikicdn.com/_desktop-next/static/img/mycoupon/coupon_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  padding: 10px 12px 10px 40px;
+  outline: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.bBpgLT .button {
+  opacity: 0.5;
+  pointer-events: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: 0px;
+  background-color: rgb(13, 92, 182);
+  border-radius: 4px;
+  opacity: 1;
+  width: 96px;
+  height: 40px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: top;
+}
+.ijfiKe .header {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: rgb(36, 36, 36);
+  margin: 0px 32px 16px;
+}
+.ul-voucher {
+  color: black;
+}
+.hYYHBc .group-header__condition {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(120, 120, 120);
+  text-transform: uppercase;
+}
+.ijfiKe .body-scroll {
+  height: 500px;
+  overflow: scroll;
+  margin: 0px 3px 0px 27px;
+}
+.hYYHBc .group-header__title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.hYYHBc .group-header {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(36, 36, 36);
+  margin: 0px 5px;
+}
+.hYYHBc {
+  margin-top: 15px;
+  margin-right: 25px;
+}
+.jdEAhj {
+  margin-top: 15px;
+  margin-right: 25px;
+}
+.jdEAhj .group-header {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(36, 36, 36);
+  margin: 0px 5px;
+}
+.jdEAhj .group-header__title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.jdEAhj .group-header__condition {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(120, 120, 120);
+  text-transform: uppercase;
+}
+
+.jdEAhj .coupon-list {
+  flex: 1 1 0%;
+  max-height: 10000px;
+  overflow: hidden;
+  padding: 5px;
+}
+.jdEAhj .coupon-list__coupon-item {
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+.bJoZof {
+  display: flex;
+  position: relative;
+  width: 400px;
+}
+.HRJop {
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  height: 132px;
+}
+.bJoZof .coupon-bg {
+  width: 100%;
+  height: 132px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 1px 3px);
+}
+.jibPFy {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sc-pNWdM {
+  width: 80px;
+  height: 70px;
+}
+.XJxhY {
+  position: absolute;
+  width: 82px;
+  height: 64px;
+  margin-left: 10px;
+}
+.hbusih {
+  min-width: 132px;
+  width: 132px;
+  height: 132px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.cZpIMl {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.bzixtu {
+  width: 100%;
+  padding-bottom: calc(100%);
+  position: relative;
+}
+.jwEmPQ {
+  object-fit: contain;
+  border-radius: 8px;
+  filter: grayscale(1);
+  opacity: 0.4 !important;
+}
+
+.dJXsSm {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.eOAXWW {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease-out 0s;
+  object-fit: contain;
+}
+.dRsyqq {
+  margin: 4px 4px 0px;
+  text-align: center;
+}
+.bztdgk {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  max-height: 32px;
+  -webkit-line-clamp: 2;
+  color: rgb(120, 120, 120);
+}
+.bojiJp {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  width: calc(100% - 132px);
+}
+.bYgUJS {
+  display: flex;
+  margin-bottom: 2px;
+  overflow: hidden;
+  max-width: calc((100% - 20px) - 8px);
+}
+.fDDjHD {
+  white-space: nowrap;
+}
+.bqaolT {
+  height: 20px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: inline-block;
+  background: rgb(242, 242, 242);
+  color: rgb(120, 120, 120);
+}
+.fHUQtx {
+  display: block;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  line-height: 0px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transform: translate(8px, -8px);
+}
+.kydRHc {
+  cursor: pointer;
+}
+.dvHFX {
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+}
+.hmqpxx {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  max-height: 20px;
+  color: rgb(120, 120, 120);
+}
+.hYYHBc:first-child .view-more {
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.hYYHBc .view-more {
+  display: flex;
+  height: 48px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(13, 92, 182);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.ijfiKe .footer {
+  position: sticky;
+  padding: 24px 32px 0px;
+  box-shadow: rgb(36 36 36 / 8%) 0px -1px 4px 0px;
+}
+.ijfiKe .footer button {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  outline: 0px;
+}
+.XJxhY {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}

@@ -1,0 +1,17 @@
+.article-detail h1,h2{
+    font-size:1.5rem!important;
+}
+
+.post-title{
+    color: black;
+    font-size: 18px;
+}
+
+.post-description{
+    color: black;
+    font-size: 14px;
+}
+
+.article-detail a {
+    color: black!important;
+}

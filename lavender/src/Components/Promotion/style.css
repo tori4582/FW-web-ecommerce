@@ -1,0 +1,44 @@
+@media screen and (min-width: 1367px) {
+  .event-dc-2 .container-ev-inner {
+    padding: 0;
+  }
+}
+.container-ev-inner {
+  width: 100%;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .event-dc-2__image-block {
+    padding: 0 0;
+  }
+  .event-dc-2__image-block--desktop {
+    display: block;
+  }
+  .event-dc-2__image-block--mobile {
+    display: none;
+  }
+}
+.event-dc-2__image-block--desktop img {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+}
+.promotion-tieude {
+  margin-top: 54px;
+}
+
+.dvHFX2 {
+  position: relative;
+  margin-right: 52px;
+}
+.HRJop2 .btn-luu-voucher {
+  width: 64px;
+  height: 31px;
+  padding: 0 0 0 0;
+  position: absolute;
+  right: 83px;
+  bottom: -9px;
+}
+.jibPFy .sc-iJCRrE2 {
+  padding-left: 20px;
+}

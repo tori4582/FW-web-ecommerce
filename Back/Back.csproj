@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.8.64" />
+  <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="3.1.0" />
+  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+  <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.0" />
+  <PackageReference Include="EPPlus" Version="5.0.3" />
+  <PackageReference Include="GemBox.Spreadsheet" Version="47.0.1345" />
+  <PackageReference Include="ExcelNumberFormat" Version="1.0.0" />
+  <PackageReference Include="MailKit" Version="3.0.0" />
+  <PackageReference Include="AspNetCore.Email" Version="2.1.403" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.AspNetCore.Mvc.Cors" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Pomelo.EntityFrameworkCore.MySql" />
+    <None Remove="MySql.EntityFrameworkCore" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Json.Net" />
+    <None Remove="Common\" />
+    <None Remove="System.Drawing.Common" />
+    <None Remove="Microsoft.AspNetCore.Http.Abstractions" />
+    <None Remove="Models\ModelDTO\" />
+    <None Remove="Models\ModelDTO\Cart\" />
+    <None Remove="Models\ModelDTO\Account\" />
+    <None Remove="Microsoft.AspNetCore.Authentication" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Microsoft.AspNetCore.Authorization" />
+    <None Remove="Microsoft.AspNetCore.Session" />
+    <None Remove="Microsoft.Extensions.Caching.Memory" />
+    <None Remove="EPPlus" />
+    <None Remove="GemBox.Spreadsheet" />
+    <None Remove="ExcelNumberFormat" />
+    <None Remove="MailKit" />
+    <None Remove="AspNetCore.Email" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Models\ModelDTO\" />
+    <Folder Include="Models\ModelDTO\Cart\" />
+    <Folder Include="Models\ModelDTO\Account\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,128 @@
+.jXurFV{
+    flex: 1 1 0%;
+
+}
+
+.goLqYu .heading{
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: 300;
+    margin: 20px 0px 15px;
+}
+
+.goLqYu .tabs{
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+.goLqYu .tabs > li.is-active{
+    border-color: rgb(27, 168, 255);
+}
+
+.goLqYu .tabs > li{
+    padding: 8px 15px 5px;
+    margin: 0px 20px;
+    font-size: 28px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    color: rgb(102, 102, 102);
+    position: relative;
+    z-index: 1;
+}
+.goLqYu .tabs > li.last{
+    margin-left: auto;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+.erXBTT:first-child{
+    border-top: 0px;
+}
+
+.erXBTT{
+    padding: 25px;
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    border-top: 1px solid rgb(248, 248, 248);
+    color: rgb(102, 102, 102);
+    background-color: rgb(246, 252, 255);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.erXBTT .circle.c-02b7f1{
+    background-color: rgb(2, 183, 241);
+}
+
+.erXBTT .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+.erXBTT .content{
+    flex: 1 1 0%;
+}
+.erXBTT > *{
+    margin-right: 20px;
+}
+
+.erXBTT > :first-child{
+    min-width: 100px;
+}
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+
+
+.erXBTT .delete, .erXBTT .read{
+    align-self: flex-start;
+    font-size: 14px;
+    border: 0px;
+    padding: 4px 8px;
+    margin: 0px;
+    background: 0px center;
+    color: rgb(255, 66, 78);
+    cursor: pointer;
+    outline: 0px;
+    white-space: nowrap;
+}
+
+.erXBTT .read{
+    color: rgb(27, 168, 255);
+}
+
+
+.erXBTT .circle.c-dd3a86{
+    background-color: rgb(221, 58, 134);
+}
+
+.erXBTT .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 30px;
+}

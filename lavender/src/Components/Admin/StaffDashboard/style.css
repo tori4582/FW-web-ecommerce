@@ -1,0 +1,19 @@
+.add-khachhang-button{
+    position: absolute!important;
+    right: 19px;
+    top: -7px;
+}
+.danhsachsanpham-title{
+    z-index: 3
+}
+.add-item-modal{
+    z-index: 2;
+    width: 500px;
+}
+.form-main-add-edit{
+    padding: 24px 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;   
+    overflow: scroll;
+}

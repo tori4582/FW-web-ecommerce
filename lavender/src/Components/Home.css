@@ -1,0 +1,300 @@
+/**
+* Template Name: OnePage - v4.6.0
+* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+section {
+  padding: 69px 0;
+}
+
+/* Carousel phần quảng cáo */
+
+.promotion-img {
+  width: 168px !important;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.promotion-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.promotion3 {
+  margin-top: 10px;
+}
+.carousel-title {
+  box-shadow: -4px 65px 90px 20px #ed00000d;
+}
+
+/* Điện thoại nổi bật*/
+.box-title {
+  padding: 0;
+  background: unset;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+.box-title .box-title__title {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 22px;
+  color: #444444;
+}
+box-title a.box-title__title > h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 22px;
+  color: #444444;
+}
+.box-title__title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 22px;
+  color: #444444;
+}
+.box-related-tag .list-related-tag {
+  padding-top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 0 0;
+  font-size: 1rem;
+}
+.box-related-tag .list-related-tag a,
+section.cps-section
+  .block-products
+  .box-related-tag
+  .list-related-tag
+  .item-related-tag {
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  float: left;
+  margin: 0 0.2rem 0 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  background: #f3f4f6;
+  color: #444444;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+/*Laptop nổi bật*/
+/** Phần từng item sản phẩm */
+
+/*Các thương hiệu*/
+.brands {
+  background: #ffffff;
+  border-radius: 8px;
+  height: 216px;
+  overflow: hidden;
+}
+.brands .brand-header {
+  position: relative;
+  height: 45px;
+  border-bottom: 1px solid #ededed;
+}
+.brands .brand-header h3 {
+  margin: 0 10px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.brands .brand-header a {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.brands .brand-body {
+  padding: 0 10px 5px;
+}
+.brands .brand-body .brand-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+.brands .brand-body .brand-items .brch-row,
+.brands .brand-body .brand-items .brch-row-page {
+  min-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.brands .brand-body .brand-items .brch-row .brand-item:first-child,
+.brands .brand-body .brand-items .brch-row-page .brand-item:first-child {
+  margin-left: 3px;
+}
+
+.brands .brand-body .brand-items .brch-row .brand-item,
+.brands .brand-body .brand-items .brch-row-page .brand-item {
+  width: calc(100% / 8);
+  min-width: 95px;
+  margin: 4px;
+  border-radius: 8px;
+  text-align: center;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+}
+.brands .brand-body .brand-items .brch-row .brand-item img,
+.brands .brand-body .brand-items .brch-row-page .brand-item img {
+  height:65px;
+  width: 100%;
+  margin: 0 auto;
+}
+.brands .brand-body .brand-items .brch-row .brand-item:hover img,
+.brands .brand-body .brand-items .brch-row-page .brand-item:hover img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.promotion1 .promotion-carousel{
+  border-radius: 10px;
+}
+.item-banner-right{
+  width: 33%;
+}
+
+
+.maincard {
+  position: absolute;
+  width: 220px;
+  height: 89px
+ 
+}
+
+.thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease
+}
+
+.thecard:hover {
+  transform: rotateY(180deg)
+}
+
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hidden;
+  background: #fff;
+  color: #3D087B;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  padding: 10px
+}
+
+.theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: hidden;
+  background: #3D087B;
+  color: #fff;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  border: 1px solid #eee;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  padding: 10px
+}
+
+
+.about {
+  font-size: 10px
+}
+.promotion4{
+  margin-top: 20px;
+}
+.promotion4 img{
+  border-radius: 10px;
+
+}

@@ -1,0 +1,36 @@
+.trademark-item {
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  float: left;
+  margin: 0 0.5rem 1rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  background: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: #444444;
+  overflow: hidden;
+  position: relative;
+}
+
+.trademark-item .trademark-icon{
+    height: 15px;
+}
+.trademark-selected{
+  border: 1px solid #D70018;
+  background: #FEF2F2;
+  color: #D70018;
+}
+
+

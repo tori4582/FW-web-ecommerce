@@ -1,0 +1,218 @@
+.block-rating {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 0 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.box-rating__box-title {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+section.cps-section .block-rating .box-rating__box-title p, section.cps-section .block-rating .box-rating__box-title h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    line-height: 22px;
+}
+.block-rating .block-rating__box-vote {
+    width: 100%;
+}
+.block-rating .block-rating__box-vote .box-vote {
+    display: flex;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote {
+    width: 100%;
+    display: flex;
+    float: left;
+    border: 1px solid #DEE2E6;
+    border-radius: 1rem;
+    background: #ffffff;
+    overflow: hidden;
+}
+.block-rating .block-rating__box-vote .box-vote > [class*=box-vote__] {
+    margin-bottom: 10px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-right: 1px solid #DEE2E6;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left > [class*=rating-]:not(:last-child) {
+    margin-bottom: 5px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left .rating-average {
+    /* font-size: 20px; */
+    font-size: 24px;
+    font-weight: 700;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left > [class*=rating-]:not(:last-child) {
+    margin-bottom: 5px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left .rating-star {
+    font-size: 14px;
+}
+.block-rating .block-rating__box-vote .box-vote__chart-vote .chart-vote__box-left .rating-star > .fa-star:not(:last-child) {
+    margin-right: 3px;
+}
+.block-rating .block-rating__box-vote .box-vote__chart-vote .chart-vote__box-left .rating-star > .fa-star {
+    font-size: 14px;
+}
+.block-rating .fa-star.checked, section.cps-section .block-rating .fa-star-half.checked {
+    color: #F59E0B;
+}
+.block-rating .fa-star {
+    color: #707070;
+}
+.block-rating .block-rating__box-vote .box-vote__chart-vote .chart-vote__box-left .rating-star > .fa-star {
+    font-size: 14px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left .rating-total {
+    /* font-size: 10px; */
+    font-size: 14px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-left > p {
+    margin-bottom: 0;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right {
+    width: 60%;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical {
+    padding: 15px;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical .item-statistical {
+    justify-content: center;
+    align-items: center;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical .item-statistical .number-star {
+    /* font-size: 12px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+section.cps-section .block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical .item-statistical .timeline-star {
+    flex: 1;
+    /* height: 7px; */
+    /* padding: 1px; */
+    height: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    background: #E4E4E4;
+    overflow: hidden;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical .item-statistical .timeline-star .timing {
+    height: 100%;
+    border-radius: 10px;
+    background: #F44336;
+}
+.block-rating .block-rating__box-vote .box-vote .box-vote__chart-vote .chart-vote__box-right .box-statistical .item-statistical .number-percent {
+    width: 70px;
+    /* font-size: 10px; */
+    font-size: 12px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.block-rating .block-rating__box-vote .box-button-vote {
+    display: flex;
+    justify-content: center;
+}
+.block-rating .block-rating__box-vote .box-button-vote .box-vote__button-vote {
+    width: 300px;
+}
+.block-rating .block-rating__box-vote .box-button-vote > [class*=box-vote__] {
+    margin-bottom: 10px;
+}
+.block-rating .box-rating__box-list-review {
+    width: 100%;
+}
+.block-rating .box-rating__box-list-review .item-review:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.block-rating .box-rating__box-list-review .item-review {
+    width: 100%;
+    float: left;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-info .box-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-info .box-info .box-info__avatar {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 0 0.5rem 0 0;
+    border-radius: 0.5rem;
+    background: #DDDDDD;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-info .box-info .box-info__user .box-info__name {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-info .box-time-review {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #707070;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-question {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #F3F4F6;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-question .raiting {
+    margin-bottom: 0.5rem;
+    float:left;
+}
+.block-rating .box-rating__box-list-review .item-review .box-review__box-question .question {
+    margin: 0;
+    font-size: 1.2rem;
+    float: left;
+    margin-top: 30px;
+    margin-left: -168px;
+}
+
+/* img*/
+
+.review-comment__images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 69px;
+    
+}
+.review-comment__images .review-comment__image{
+    width: 152px;
+    height: 152px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0px 6px 8px;
+    cursor: pointer;
+}

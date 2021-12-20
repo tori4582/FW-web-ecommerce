@@ -1,0 +1,19 @@
+.khuyenmai-modal .add-khachhang-button{
+    position: absolute!important;
+    right: 19px;
+    top: -7px;
+}
+khuyenmai-modal .danhsachsanpham-title{
+    z-index: 3
+}
+.khuyenmai-modal .add-item-modal{
+    z-index: 2;
+    width: 300px;
+}
+.khuyenmai-modal .form-main-add-edit{
+    padding: 24px 0px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;   
+    overflow: scroll;
+}
